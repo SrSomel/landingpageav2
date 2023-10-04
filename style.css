@@ -1,0 +1,150 @@
+:root {
+  --cor_hover: #40a3ff;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cabecalho {
+  /* Use linear-gradient() para criar o degradê de cores */
+  background: linear-gradient(to bottom, #0e0433, #010d22);
+  /* Adicione estilos adicionais, como altura, largura, etc. */
+  height: 100px;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin-left: -47%;
+  position: absolute;
+}
+
+.botoes {
+  padding: 2px;
+  margin-top: 1%;
+  margin-left: -90%;
+  font-size: 1.7rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.curso {
+  position: absolute;
+  z-index: 2;
+  margin-top: 1.5%;
+  margin-left: 20.5%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.curso:hover {
+  color: var(--cor_hover);
+}
+
+.sobre {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 30%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sobre:hover {
+  color: var(--cor_hover);
+}
+
+.duvidas {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 39%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.duvidas:hover {
+  color: var(--cor_hover);
+}
+
+.contato_endereco {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 50.4%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.contato_endereco:hover {
+  color: var(--cor_hover);
+}
+
+.avaliacoes {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 72%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.avaliacoes:hover {
+  color: var(--cor_hover);
+}
+
+
+.rodape {
+  /* Use linear-gradient() para criar o degradê de cores */
+  background-color: #0e0433;
+  /* Adicione estilos adicionais, como altura, largura, etc. */
+  height: 100px;
+  color: white;
+  padding: 30px;
+  margin-top: 71%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contato {
+  font-size: 25px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.info {
+  margin-left: 350px;
+
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.fone {
+  margin-top: 10px;
+}
+
+.fone:hover {
+  color: var(--cor_hover);
+}
+
+.email:hover {
+  color: var(--cor_hover);
+}
+
+.endereco:hover {
+  color: var(--cor_hover);
+}
+
+.direitos {
+  margin-left: 5%;
+  margin-top: 15px;
+}
