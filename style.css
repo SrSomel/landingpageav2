@@ -1,5 +1,5 @@
 :root {
-  --cor_hover: #40a3ff;
+  --cor_hover: #ff4747;
 }
 
 * {
@@ -15,6 +15,7 @@
   text-align: center;
   color: #ffffff;
   padding: 5px;
+  position: absolute fixed;
 }
 
 #logo {
@@ -40,11 +41,11 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .curso:hover {
-  color: var(--cor_hover);
+  transform: scale(1.2);
 }
 
 .sobre {
@@ -54,11 +55,11 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .sobre:hover {
-  color: var(--cor_hover);
+  transform: scale(1.2);
 }
 
 .duvidas {
@@ -68,11 +69,11 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .duvidas:hover {
-  color: var(--cor_hover);
+  transform: scale(1.2);
 }
 
 .contato_endereco {
@@ -82,11 +83,11 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .contato_endereco:hover {
-  color: var(--cor_hover);
+  transform: scale(1.2);
 }
 
 .avaliacoes {
@@ -96,13 +97,92 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .avaliacoes:hover {
-  color: var(--cor_hover);
+  transform: scale(1.2);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.ola {
+  color: #ffffff;
+  font-size: 45px;
+  margin-top: -145px;
+  background: linear-gradient(to bottom, #0e0433, #010d22);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+.seja {
+  color: #ffffff;
+  margin-top: -9px;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #010d22;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+/* Animação para o efeito neon */
+@keyframes neon {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+
+}
+
+#cara_feliz {
+  margin-top: -265px;
+  margin-left: 820px;
+  width: 470px;
+  height: 460px;
+  filter: grayscale(80%);
+}
+
+#cara_feliz2 {
+  margin-top: -465px;
+  margin-right: 860px;
+  width: 470px;
+  height: 460px;
+  filter: grayscale(80%);
+}
+
+
+.cta-1 {
+  margin-top: 100px;
+  width: 245px;
+  height: 100px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #ff4747;
+  border-color: #ff4747;
+  font-size: 40px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.cta-1:hover {
+  transform: scale(1.2);
+}
 
 .rodape {
   /* Use linear-gradient() para criar o degradê de cores */
@@ -130,14 +210,23 @@
 
 .fone {
   margin-top: 10px;
+  transition: color 0.3s ease;
 }
 
 .fone:hover {
   color: var(--cor_hover);
 }
 
+.email {
+  transition: color 0.3s ease;
+}
+
 .email:hover {
   color: var(--cor_hover);
+}
+
+.endereco {
+  transition: color 0.3s ease;
 }
 
 .endereco:hover {
